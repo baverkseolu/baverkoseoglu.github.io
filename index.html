@@ -252,26 +252,17 @@
 <!-- PROJECTS -->
 <section id="projects">
   <p class="section-label reveal" data-tr="Seçili Projeler" data-en="Selected Projects">Seçili Projeler <span class="draw-line"></span></p>
-  <div class="featured-project">
-    <div class="featured-visual reveal-left"></div>
-    <div class="reveal-right">
-      <p class="featured-tag" data-tr="Stüdyo Projesi" data-en="Studio Project">Stüdyo Projesi</p>
-      <h2 class="featured-title" data-tr="Hareket Merkezi" data-en="Movement Center">Hareket Merkezi</h2>
-      <p class="featured-body"
-        data-tr="Şehrin durağanlığını kırmak üzerine kurulu bu proje, kenti yeniden harekete geçiren bir program yoğunluğu önermektedir. Yarı olimpik havuz, konferans salonu, yoga merkezi, spor salonu ve restoran gibi işlevleri tek çatı altında buluşturan yapı; katmanlı sirkülasyon aksları ve şeffaf cephe kurgusuyla içeriyi kentsel yaşama açar."
-        data-en="Designed to break the stillness of the city, this project proposes a density of program that reactivates urban life. Bringing together a semi-Olympic pool, conference hall, yoga studio, gym and restaurant under one roof, the building opens itself to the city through layered circulation axes and a transparent facade.">
-        Şehrin durağanlığını kırmak üzerine kurulu bu proje, kenti yeniden harekete geçiren bir program yoğunluğu önermektedir. Yarı olimpik havuz, konferans salonu, yoga merkezi, spor salonu ve restoran işlevleri tek çatı altında buluşturulmuştur.
-      </p>
-      <div class="tag-list">
-        <span class="tag" data-tr="Karma Program"      data-en="Mixed Program">Karma Program</span>
-        <span class="tag" data-tr="Kentsel Aktivasyon" data-en="Urban Activation">Kentsel Aktivasyon</span>
-        <span class="tag" data-tr="Spor & Kültür"      data-en="Sport & Culture">Spor & Kültür</span>
-        <span class="tag" data-tr="Kamusal Alan"       data-en="Public Space">Kamusal Alan</span>
-      </div>
-    </div>
-  </div>
+  <div class="featured-project" style="display:none"></div>
   <div class="projects-grid">
     <div class="project-card reveal" style="transition-delay:0s">
+      <div class="project-thumb" onclick="openLightbox(0)"><div class="project-thumb-inner" style="background:url('https://i.imgur.com/LWJApJm.jpeg') center/cover"></div></div>
+      <div class="project-info">
+        <p class="project-meta">Studio</p>
+        <h3 class="project-name" data-tr="Hareket Merkezi" data-en="Movement Center">Hareket Merkezi</h3>
+        <p class="project-desc" data-tr="Yarı olimpik havuz, konferans salonu, yoga merkezi, spor salonu ve restoran işlevleri tek çatı altında buluşturulmuştur." data-en="A semi-Olympic pool, conference hall, yoga studio, gym and restaurant brought together under one roof.">Yarı olimpik havuz, konferans salonu, yoga merkezi, spor salonu ve restoran işlevleri tek çatı altında buluşturulmuştur.</p>
+      </div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:0.1s">
       <div class="project-thumb" onclick="openLightbox(1)"><div class="project-thumb-inner" style="background:url('https://i.imgur.com/uhZY7qg.jpeg') center/cover"></div></div>
       <div class="project-info">
         <p class="project-meta">Kocaeli, İzmit</p>
@@ -279,19 +270,11 @@
         <p class="project-desc" data-tr="Kamusal sağlık altyapısını yeniden tanımlayan tek katlı bir yapı." data-en="A single-storey building redefining public health infrastructure.">Kamusal sağlık altyapısını yeniden tanımlayan tek katlı bir yapı.</p>
       </div>
     </div>
-    <div class="project-card reveal" style="transition-delay:0.1s">
-      <div class="project-thumb" onclick="openLightbox(2)"><div class="project-thumb-inner" style="background:url('https://i.imgur.com/4nAfePK.jpeg') center/cover"></div></div>
+    <div class="project-card reveal" style="transition-delay:0.2s">
+      <div class="project-thumb" onclick="openLightbox(2)"><div class="project-thumb-inner" style="background:url('https://i.imgur.com/PT91OWY.jpeg') center/cover"></div></div>
       <div class="project-info">
         <p class="project-meta">İstanbul, Bostancı</p>
         <h3 class="project-name" data-tr="Bostancı Kültür Merkezi" data-en="Bostancı Cultural Center">Bostancı Kültür Merkezi</h3>
-        <p class="project-desc" data-tr="Sergi alanları ve açık kamusal mekanlarla kentsel dokuya yeni bir katman ekler." data-en="Adds a new layer to the urban fabric with exhibition spaces and open public areas.">Sergi alanları ve açık kamusal mekanlarla kentsel dokuya yeni bir katman ekler.</p>
-      </div>
-    </div>
-    <div class="project-card reveal" style="transition-delay:0.2s">
-      <div class="project-thumb" onclick="openLightbox(3)"><div class="project-thumb-inner" style="background:url('https://i.imgur.com/PT91OWY.jpeg') center/cover"></div></div>
-      <div class="project-info">
-        <p class="project-meta">İstanbul, Bostancı</p>
-        <h3 class="project-name" data-tr="Bostancı Kültür Merkezi — İç Mekan" data-en="Bostancı Cultural Center — Interior">Bostancı Kültür Merkezi — İç Mekan</h3>
         <p class="project-desc" data-tr="Sirkülasyon aksları ve doğal ışık kullanımı üzerine kurulu iç mekan kurgusu." data-en="Interior spatial logic built upon circulation axes and natural light.">Sirkülasyon aksları ve doğal ışık kullanımı üzerine kurulu iç mekan kurgusu.</p>
       </div>
     </div>
@@ -300,7 +283,7 @@
       <div class="project-info">
         <p class="project-meta">Studio</p>
         <h3 class="project-name" data-tr="Platform Müze & Sanat Merkezi" data-en="Platform Museum & Art Center">Platform Müze & Sanat Merkezi</h3>
-        <p class="project-desc" data-tr="Deskonstürktivist yaklaşımla kırık geometriler üzerine kurulu mekânsal deneyim." data-en="A spatial experience built on fractured geometries with a deconstructivist approach.">Deskonstürktivist yaklaşımla kırık geometriler üzerine kurulu mekânsal deneyim.</p>
+        <p class="project-desc" data-tr="'Platform' konsepti üzerine kurulu yapı; çakışan yatay düzlemler ve kırık geometrilerle ziyaretçiyi katmanlı bir mekânsal deneyime davet eder." data-en="Built on the concept of 'platform', the project invites visitors into a layered spatial experience through intersecting planes and fractured geometries.">'Platform' konsepti üzerine kurulu yapı; çakışan yatay düzlemler ve kırık geometrilerle ziyaretçiyi katmanlı bir mekânsal deneyime davet eder.</p>
       </div>
     </div>
   </div>
@@ -472,7 +455,8 @@
   }
   document.getElementById('lightbox').addEventListener('click',e=>{ if(e.target===e.currentTarget) closeLightbox(); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeLightbox(); if(e.key==='ArrowRight') lightboxNav(1); if(e.key==='ArrowLeft') lightboxNav(-1); });
-  document.querySelector('.featured-visual').addEventListener('click',()=>openLightbox(0));
+  const featuredVisual = document.querySelector('.featured-visual');
+  if (featuredVisual) featuredVisual.addEventListener('click', () => openLightbox(0));
 </script>
 </body>
 </html>
